@@ -1,0 +1,424 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+    font-weight: 400;
+
+}
+
+.carousel {
+    width: 50%;
+    margin: auto auto 15px auto;
+    padding: 15px 0;
+}
+.cabecera {
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 20;
+}
+
+.logo {
+    padding: 10px 0 0 30px;
+}
+
+.logo a img {
+    width: 150px;
+}
+
+.menu {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.menu a{
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    transition: 0.6s;
+    margin: 0 5px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #0c3149;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.mi-cuenta {
+    margin-top: 20px;
+    float: right;
+}
+
+.mi-cuenta a{
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: #0c3149;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right:15px;
+    font-weight: 600;
+    transition: 0.8s;
+    float: right;
+}
+
+.mi-cuenta a:hover {
+    background-color: #a1c52e;
+    color: #0c3149;
+}
+
+.mi-cuenta i {
+    font-size: 25px;
+    float: right;
+    padding: 18px;
+
+}
+
+.div-cabecera {
+    color: rgb(195, 195, 195);
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.columna-izquierda h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.columna-izquierda p {
+    text-align: justify;
+    margin: 30px 0 0 0;
+}
+
+.div-introduccion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.columna-izquierda {
+    text-align: center;
+}
+
+.columna-izquierda a {
+    display: block;
+    color: white;
+    background-color: #0c3149;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+    width: 100%;
+    font-weight: 600;
+}
+
+.columna-izquierda a:hover{
+    background-color: #a1c52e;
+    color: #0c3149;
+}
+
+.imagen-inicio {
+    border-radius: 7px
+}
+
+.zoom {
+    transition: 0.8s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #0c3149;
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+.tarjetas {
+    padding-left: 25px;
+}
+
+.copyright p {
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.tasa0 img{
+    float: right;
+}
+
+.eleccion {
+    text-align: center;
+    padding: 70px 0 50px 0;
+}
+
+.eleccion h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.iconos {
+    text-align: center;
+}
+
+.iconos img {
+    width: 130px;
+    padding-bottom: 25px;
+}
+
+.iconos h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.iconos p {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.fila-eleccion {
+    margin-top: 10px;
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 50px;
+}
+
+.divisor {
+    position: relative;
+}
+
+.desplegable {
+    display: inline-block;
+}
+
+/* ----------- inicio css menus desplegables ----------*/
+
+.nuestra-empresa {
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 280px;
+    margin-left: 725px;
+    border-radius: 5px;
+    background-color: #0c3149;
+    z-index: 2;
+    box-shadow: grey 0 5px 5px 5px;
+}
+
+.nuestra-empresa a {
+    padding: 7px 25px;
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 500;
+    display: block;
+    background-color: #0c3149;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.nuestra-empresa a:hover {
+    background-color: #a1c52e;
+    color: black;
+    font-weight: 600;
+}
+
+.filosofia-atenea{
+    display: none;
+}
+
+.cursos {
+    display: none
+}
+
+.boton-desplegable:hover .nuestra-empresa{
+    display: inline-block;
+}
+
+.estadisticas {
+    padding: 50px 0;
+}
+
+.titulo h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fila {
+    padding-top: 40px;
+}
+
+.numero-estadistica {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: teal;
+}
+
+.iconos-estadisticas img {
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.texto-estadistica {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nuestros-cursos {
+    background-color: rgb(236, 236, 236);
+    padding: 40px;
+}
+
+.nuestros-cursos h3 {
+    text-align: center;
+    padding: 25px 0 15px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.nuestros-cursos img {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.hr-cursos {
+    width: 53%;
+    margin: 0 auto 50px auto;
+}
+
+.suscribete {
+    padding: 10px 0 30px 0;
+}
+
+.titulo-suscribete {
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.titulo-suscribete h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.imagen-suscribete img {
+    border-radius: 5px;
+    width: 550px;
+}
+
+.boton {
+    margin: 20px 0 0 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #0c3149;
+    color: white;
+    border-style: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.boton:hover {
+    background-color: #a1c52e;
+    color: #0c3149;
+    font-weight: 600;
+}
+
+/* ------------- LOGIN ------------*/
+
+.cuerpo-login {
+    background-color: #a1c52e;
+    padding: 0 0 1px 0;
+}
+
+.login {
+    text-align: center;
+    border-radius: 15px;
+    margin: 75px 0px;
+    background-color: white;
+}
+
+.titulo-login {
+    padding: 0 0 35px 0; 
+    font-weight: 600;
+}
+
+.acceder { 
+    margin: 25px 0;
+}
+
+.forget-password {
+    font-weight: 600;
+}
+
+.fondo-login img {
+    
+    width: 500px;
+    border-radius: 100%;;
+}
+
+.fondo-login {
+    background-image: url("../Images/student-fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.formulario-login {
+    padding: 0 50px;
+}
+
+.fa-eye {
+    font-size: 25px;
+    position: absolute;
+    right: 11px;
+    bottom: 17px;
+    cursor: pointer;
+}
+
+.fa-eye-slash {
+    display: none;
+    font-size: 25px;
+    position: absolute;
+    right: 11px;
+    bottom: 17px;
+    cursor: pointer;
+}
